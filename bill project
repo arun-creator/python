@@ -1,0 +1,34 @@
+print("BILL")
+def p(a,c):
+    b=a*c
+    print(b)
+def s(a,c):
+    b=a*c
+    print(b)
+def u(a,c):
+    b=a*c
+    print(b)
+    
+name=input("Enter your name:")
+src=input("Enter source:")
+dest=input("Enter destination:")
+dist=input("Enter distance:")
+typ=input("Enter type of vehicle:")
+print(name)
+print(src)
+print(dest)
+print(typ)
+if (typ=="prime"):
+    p(dist,10)
+if (typ=="sedan"):
+    s(dist,15)
+if (typ=="suv"):
+    u(dist,20)
+
+
+
+
+
+
+
+
