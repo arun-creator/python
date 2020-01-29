@@ -12,7 +12,7 @@ def u(a,c):
 name=input("Enter your name:")
 src=input("Enter source:")
 dest=input("Enter destination:")
-dist=input("Enter distance:")
+dist=int(input("Enter distance:"))
 typ=input("Enter type of vehicle:")
 print(name)
 print(src)
