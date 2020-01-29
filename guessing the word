@@ -1,30 +1,14 @@
 import random 
-
-name = input("What is your name? ") 
-
-  
-print("Good Luck ! ", name) 
-  
+name = input("What is your name? ")   
+print("Good Luck ! ", name)   
 words = ['rainbow']  
-
-word = random.choice(words) 
-  
-  
-print("Guess the characters") 
-  
+word = random.choice(words)   
+print("Guess the characters")   
 guesses = '' 
-turns = 12
-  
-  
-while turns > 0: 
-      
-   
+turns = 12  
+while turns > 0:   
     failed = 0
-      
-   
-    for char in word:  
-          
-       
+    for char in word:
         if char in guesses:  
             print(char) 
               
